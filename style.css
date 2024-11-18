@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+header {
+    max-width: 1600px;
+    margin: auto;
+    background-image: url(./images/header_img.png);
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+header nav .logo {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.bx-food-menu {
+    display: none;
+    font-size: 40px;
+    color: #ffffff;
+
+}
+
+header nav button {
+    width: 163px;
+    height: 51px;
+    background: #C9453B;
+    margin-top: 35px;
+    color: #ffffff;
+}
+
+header .header_main {
+    margin: 200px 0px 200px 0px;
+
+}
+
+header .header_main h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+header .header_main p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 50px;
+
+}
+
+header .header_main button {
+    width: 187px;
+    height: 59px;
+    margin-top: 45px;
+
+}
+
+/*============================================================location===============================================*/
+
+.location {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.location .location_nav {
+    text-align: center;
+    margin: 120px 0px 65px 0px;
+}
+
+.location .location_nav h1 {
+    font-size: 43px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.location .location_nav p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.location .location_main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 13px;
+}
+
+.location .location_main .location_main_turkiy h3 {
+    text-align: center;
+    margin: 20px 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.location .location_main .location_main_turkiy p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.location .location_main .location_main_malaysia h3 {
+    text-align: center;
+    margin: 20px 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.location .location_main .location_main_malaysia p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.location .location_main .location_main_seoul h3 {
+    text-align: center;
+    margin: 20px 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.location .location_main .location_main_seoul p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+
+
+/*=================================================================special_offers==================================================*/
+
+
+.special_offers {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.special_offers .special_offers_nav h1 {
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+    font-size: 43px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.special_offers .special_offers_nav p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0px 0px 40px 0px;
+}
+
+.special_offers .special_offers_main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10px;
+}
+
+
+/*==============================================================china==========================================================*/
+
+.special_offers .special_offers_main .special_offers_china h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin: 10px 0px;
+
+}
+
+.special_offers_main .special_offers_china .special_offers_china11 {
+    display: flex;
+    gap: 50px;
+    margin: 0px 0px 10px;
+}
+
+
+.special_offers_main .special_offers_china .special_offers_china11 .china_left {
+    display: flex;
+    gap: 10px;
+}
+
+.special_offers_main .special_offers_china .special_offers_china11 .china_right {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+/*=======================================================================iran==================================================================*/
+
+.special_offers .special_offers_main .special_offers_iran h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 30px;
+
+}
+
+.special_offers_main .special_offers_iran .special_offers_iran11 {
+    display: flex;
+    gap: 50px;
+    margin: 0px 0px 10px;
+
+}
+
+.special_offers_main .special_offers_iran .special_offers_iran11 .iran_left {
+    display: flex;
+    gap: 10px;
+}
+
+.special_offers_main .special_offers_iran .special_offers_iran11 .iran_right {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+/*=====================================================banglodesh==============================================================*/
+
+
+.special_offers .special_offers_main .special_offers_banglodesh h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin: 10px 0px;
+
+}
+
+
+.special_offers_main .special_offers_banglodesh .special_offers_banglodesh11 {
+    display: flex;
+    gap: 50px;
+    margin: 0px 0px 10px;
+}
+
+.special_offers_main .special_offers_banglodesh .special_offers_banglodesh11 .banglodesh_left {
+    display: flex;
+    gap: 15px;
+}
+
+.special_offers_main .special_offers_banglodesh .special_offers_banglodesh11 .banglodesh_right {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+/*===================================================japan==========================================================*/
+
+
+.special_offers .special_offers_main .special_offers_japan h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin: 10px 0px;
+
+}
+
+.special_offers_main .special_offers_japan .special_offers_japan11 {
+    display: flex;
+    gap: 50px;
+    margin: 0px 0px 10px;
+}
+
+.special_offers_main .special_offers_japan .special_offers_japan11 .japan_left {
+    display: flex;
+    gap: 10px;
+}
+
+.special_offers_main .special_offers_japan .special_offers_japan11 .japan_right {
+    display: flex;
+    gap: 10px;
+}
+
+/*=======================================================blog=====================================================*/
+
+.blog {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.blog .blog_nav h1 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 500;
+    color: #000000;
+    margin: 100px 0px 20px 0px;
+}
+
+.blog .blog_nav p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0px 0px 50px 0px;
+}
+
+.blog .blog_main {
+    display: flex;
+    gap: 50px;
+}
+
+.blog .blog_main .blog_main_left h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 26px;
+}
+
+.blog .blog_main .blog_main_left p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.blog .blog_main .blog_main_left span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+.blog .blog_main .blog_main_right_1 {
+    display: flex;
+    gap: 20px;
+}
+
+.blog .blog_main .blog_main_right_1 .text h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.blog .blog_main .blog_main_right_1 .text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.blog .blog_main .blog_main_right_1 .text span {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 10px;
+}
+
+
+/*===============================================footer_bottom===================================================*/
+
+
+.footer_bottom {
+    max-width: 1600px;
+    margin: auto;
+   margin-top: 150px;
+   margin-bottom: 50px;
+}
+
+.footer_bottom .footer_bottom_main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer_bottom_main .text1 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0px 0px 20px 0px;
+}
+
+.footer_bottom_main .text1 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin: 10px 0px;
+}
+
+.footer_bottom_main .text1 div {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.footer_bottom .footer_bottom_main .text1 .text1_img {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer_bottom_main .text2 ul li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin: 10px 0px;
+}
+
+.footer_bottom_main .text3 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin: 10px 0px;
+}
+
+.footer_bottom_main .text4 h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0px 0px 20px 0px;
+}
+
+.footer_bottom_main .text4 div {
+    width: 150px;
+    height: 30px;
+    background: white;
+    border: 1px solid wheat;
+    margin-bottom: 30px;
+}
+
+.footer_bottom_main .text4 div p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin: 5px 0px 0px 20px;
+}
+
+.footer_bottom_main .text4 button {
+    width: 100px;
+    height: 44px;
+    background: #C9453B;
+    color: white;
+
+}
+
+
+
+
+/*==================================@media=================================*/
+
+@media screen and (max-width: 600px) {
+
+    header nav ul li a {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .bx-food-menu {
+        display: block !important;
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .location .location_main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .location .location_main {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .special_offers .special_offers_main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .special_offers .special_offers_main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .special_offers .special_offers_main {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .blog .blog_main {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .footer_bottom .footer_bottom_main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .footer_bottom .footer_bottom_main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:600px0px) {
+    .footer_bottom .footer_bottom_main {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
+
